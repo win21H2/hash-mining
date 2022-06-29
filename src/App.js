@@ -1,5 +1,4 @@
 import './App.css';
-//import Users from './useUsers.js';
 import { useState, useEffect } from 'react';
 
 function App() {
@@ -41,51 +40,58 @@ function App() {
 
   return (
     <>
-    <div>
       <div className='container'>
-        <h6>Mini hash mining game</h6>
-        <button onClick={() => setCount(count + 1)}>Click! x1</button>
-        <button id="x2" onClick={() => setCount(count + 2 + upgradeVar)}>Click! x2</button>
-        <button id="x4" onClick={() => setCount(count + 4)}>Click! x4</button>
-        <button id="x6" onClick={() => setCount(count + 6)}>Click! x6</button>
+        <h6 class="sample">hash-mining</h6>
         <br />
         <div className="align--center">
           <tr>
             <th>Upgrade</th>
-            <th>How many clicks are needed?</th>
+            <th>Hash needed</th>
+            <th>Description</th>
             <th>New click output</th>
           </tr>
           <tr>
             <th>T1</th>
             <th>100</th>
+            <th></th>
             <th>2 hash/<sub>c</sub></th>
           </tr>
           <tr>
             <th>T2</th>
             <th>200</th>
+            <th></th>
             <th>4 hash/<sub>c</sub></th>
           </tr>
           <tr>
             <th>T3</th>
             <th>400</th>
+            <th></th>
             <th>6 hash/<sub>c</sub></th>
           </tr>
           <tr>
-            <th>T4</th>
+            <th>Auto 1</th>
             <th>Coming soon!</th>
+            <th>Your miner companion :&#41;</th>
             <th>Coming soon!</th>
           </tr>
         </div>
         <br />
+        <br />
+        ||<button onClick={() => setCount(count + 1)}>Click! x1</button>||
+        <button id="x2" onClick={() => setCount(count + 2 + upgradeVar)}>Click! x2</button>||
+        <button id="x4" onClick={() => setCount(count + 4)}>Click! x4</button>||
+        <button id="x6" onClick={() => setCount(count + 6)}>Click! x6</button>||
+        <br />
+        <br />
+        ||<button className="button--disabled" id="bot1" disabled>Coming soon!</button>||
+        <button className="button--disabled" id="bot2" disabled>Coming soon!</button>||
+        <br />
+        <br />
         <button id="reset" onClick={() => setCount(0)}>Reset</button>
         <br />
-        <span className="count" class="sample">Hashing power: {count}</span>
+        <span className="count" class="sample">Hash: {count}</span>
         <br />
       </div>
-    </div>
-    {/* <div className='USERFONT'>
-      <Users />
-    </div> */}
     </>
   );
 }
