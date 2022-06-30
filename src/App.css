@@ -75,3 +75,8 @@ button:hover {
   transition-property: height;
   transition-duration: 1s;
 }
+.game {
+  display: inline;
+  justify-content: center;
+  text-align: center;
+}
