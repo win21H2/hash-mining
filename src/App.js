@@ -61,9 +61,23 @@ function App() {
       if ((count - 10000) < 0) { document.getElementById("botiiii").disabled = true; }
       else { setCount(count - 10000); }
     }
+    setInterval(() => {
+      setCount(count + 1);
+    }, 1000);
   }, [count]);
 
   var upgradeVar = 10;
+
+  /* 
+  FOR NEXT PROGRAMMING SESSION:
+   - Make a "bot" counter and display it under the hash
+   - Make a hash per second counter and display it under the hash
+   - Make it when the user buys a bot, it automatically starts counting up in increments of one hash
+
+   - Figure out a more reliable way for counting because right now, it counts for the first few numbers
+   but then goes into a whole fucking mess... yEET
+  */
+ // increment the count every second
 
   return (
     <>
