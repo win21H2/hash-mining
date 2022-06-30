@@ -9,6 +9,7 @@ html { font-family: var(--font); }
 .container { text-align: center; }
 ::-webkit-scrollbar { width: 0px; }
 h1, h2, h3, h4, h5, h6, tr, th, p { color: var(--white); }
+.twitterlink { height: 30px; }
 .sample {
   text-align: center;
   font-size: 30px;

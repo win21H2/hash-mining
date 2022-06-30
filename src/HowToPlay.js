@@ -1,4 +1,5 @@
 import "./App.css";
+import twitterlink from './twitterlink.png';
 
 const HowToPlay = () => {
     return (
@@ -11,6 +12,7 @@ const HowToPlay = () => {
             </h5>
             <h2>Happy mining :&#41;</h2>
             <p className="cprt">Copyright &copy; 2022 324Hz</p>
+            <a href="https://twitter.com/win21H2" target="_blank"><img src={twitterlink} className="twitterlink" alt=""></img></a>
         </div>
     );
 };
