@@ -28,6 +28,7 @@ td, th {
 .align--center {
   display: inline;
   justify-content: center;
+  text-align: center;
 }
 button {
   background-color: rgba(238, 238, 238, 1);
