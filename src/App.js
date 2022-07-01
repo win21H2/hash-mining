@@ -1,5 +1,5 @@
 import "./App.css";
-import image from './isometric_server_cabinet_preview.png';
+import image from './images/isometric_server_cabinet_preview.png';
 import BuyBotChart from "./BuyBotChart";
 import HowToPlay from "./HowToPlay";
 

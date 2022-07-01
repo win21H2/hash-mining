@@ -1,5 +1,5 @@
 import "./App.css";
-import twitterlink from './twitterlink.png';
+import twitterlink from './images/twitterlink.png';
 
 const HowToPlay = () => {
     return (

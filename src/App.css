@@ -4,8 +4,7 @@
   --font: consolas, monospace;
 }
 .cprt { font-size: 10px; }
-body { cursor: crosshair; }
-html { font-family: var(--font); }
+html { font-family: var(--font); cursor: crosshair; }
 .container { text-align: center; }
 ::-webkit-scrollbar { width: 0px; }
 h1, h2, h3, h4, h5, h6, tr, th, p { color: var(--white); }
@@ -81,4 +80,12 @@ button:hover {
   display: inline;
   justify-content: center;
   text-align: center;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
