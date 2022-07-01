@@ -5,11 +5,15 @@ const BuyBotChart = () => {
     var h2 = 500;
     var h3 = 1000;
     var boticost = 2000;
+    var botiicost = 4000;
+    var botiiicost = 6000;
 
     var h1output = 2;
     var h2output = 4;
     var h3output = 6;
-    var botioutput = 0.1;
+    var botioutput = 1;
+    var botiioutput = 2;
+    var botiiioutput = 3;
 
     return (
         <div>
@@ -17,7 +21,7 @@ const BuyBotChart = () => {
             <th>upgrade</th>
             <th>hash needed</th>
             <th>description</th>
-            <th>new click output</th>
+            <th>new output</th>
           </tr>
           <tr>
             <th>h1</th>
@@ -42,6 +46,18 @@ const BuyBotChart = () => {
             <th>{boticost}</th>
             <th>Your miner companion :&#41;</th>
             <th>{botioutput} hash/<sub>s</sub></th>
+          </tr>
+          <tr>
+            <th>bot ii</th>
+            <th>{botiicost}</th>
+            <th>Your miner companion :&#41;</th>
+            <th>{botiioutput} hash/<sub>s</sub></th>
+          </tr>
+          <tr>
+            <th>bot iii</th>
+            <th>{botiiicost}</th>
+            <th>Your miner companion :&#41;</th>
+            <th>{botiiioutput} hash/<sub>s</sub></th>
           </tr>
         </div>
     );
